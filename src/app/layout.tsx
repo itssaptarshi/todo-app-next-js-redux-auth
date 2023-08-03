@@ -1,3 +1,4 @@
+import Particles from './particle';
 import "./globals.css";
 import NavBar from './navbar/page'
 
@@ -21,7 +22,7 @@ export default function RootLayout({
         <main>
           <Providers>{children}</Providers>
         </main>
-        
+        <Particles/>
       </body>
   );
 }
